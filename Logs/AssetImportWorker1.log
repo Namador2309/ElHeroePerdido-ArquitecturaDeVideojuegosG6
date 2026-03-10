@@ -1,0 +1,1291 @@
+Using pre-set license
+Built from '2022.3/respin/2022.3.62f2-4af31df585-v2' branch; Version is '2022.3.62f2 (7670c08855a9) revision 7762112'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Professional' Language: 'es' Physical Memory: 14173 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.62f2\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/ProyectoArqui/ElHeroePerdido
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+59992
+Successfully changed project path to: C:/ProyectoArqui/ElHeroePerdido
+C:/ProyectoArqui/ElHeroePerdido
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [29928]  Target information:
+
+Player connection [29928]  * "[IP] 192.168.1.35 [Port] 0 [Flags] 2 [Guid] 382641690 [EditorId] 382641690 [Version] 1048832 [Id] WindowsEditor(7,NATU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [29928] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [29928] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 2599.44 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.62f2 (7670c08855a9)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/ProyectoArqui/ElHeroePerdido/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x164c)
+    Vendor:   ATI
+    VRAM:     7086 MB
+    Driver:   31.0.21921.13001
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56472
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.311733 seconds.
+- Loaded All Assemblies, in  5.788 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.325 seconds
+Domain Reload Profiling: 6113ms
+	BeginReloadAssembly (5065ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (383ms)
+	LoadAllAssembliesAndSetupDomain (289ms)
+		LoadAssemblies (5078ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (268ms)
+			TypeCache.Refresh (266ms)
+				TypeCache.ScanAssembly (249ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (326ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (275ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (180ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 15.053 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.252 seconds
+Domain Reload Profiling: 16286ms
+	BeginReloadAssembly (190ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (14734ms)
+		LoadAssemblies (14389ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (451ms)
+			TypeCache.Refresh (364ms)
+				TypeCache.ScanAssembly (307ms)
+			ScanForSourceGeneratedMonoScriptInfo (59ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (1253ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (905ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (113ms)
+			ProcessInitializeOnLoadAttributes (651ms)
+			ProcessInitializeOnLoadMethodAttributes (117ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 13.02 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6630 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (2.1 MB). Loaded Objects now: 7087.
+Memory consumption went from 262.9 MB to 260.8 MB.
+Total: 11.013200 ms (FindLiveObjects: 0.866400 ms CreateObjectMapping: 0.946200 ms MarkObjects: 7.334200 ms  DeleteObjects: 1.863400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1557.394714 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '45d30e7a00d6c147114086ff2cb88e66') in 0.003827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/2DGamekit/Readme.asset
+  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd0d5c370c190ce43bdb1ac37bd97a358') in 0.018792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  7.421 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.304 seconds
+Domain Reload Profiling: 8722ms
+	BeginReloadAssembly (6762ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6485ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (95ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (535ms)
+		LoadAssemblies (625ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (33ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1305ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (865ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (139ms)
+			ProcessInitializeOnLoadAttributes (577ms)
+			ProcessInitializeOnLoadMethodAttributes (119ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 10.66 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6421 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (2.1 MB). Loaded Objects now: 7107.
+Memory consumption went from 223.1 MB to 221.0 MB.
+Total: 9.576500 ms (FindLiveObjects: 0.725200 ms CreateObjectMapping: 0.601500 ms MarkObjects: 6.524900 ms  DeleteObjects: 1.722700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.985 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.862 seconds
+Domain Reload Profiling: 4841ms
+	BeginReloadAssembly (188ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (696ms)
+		LoadAssemblies (468ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (322ms)
+			TypeCache.Refresh (269ms)
+				TypeCache.ScanAssembly (247ms)
+			ScanForSourceGeneratedMonoScriptInfo (39ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (3863ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (538ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (350ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 12.88 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6528 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (2.1 MB). Loaded Objects now: 7227.
+Memory consumption went from 225.3 MB to 223.2 MB.
+Total: 6.343600 ms (FindLiveObjects: 0.911100 ms CreateObjectMapping: 0.671000 ms MarkObjects: 4.069500 ms  DeleteObjects: 0.689500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/US0017-CorrectPackageVersionTags.cs: e473c3c6413fb27a33d63b984a9adfe6 -> 
+  custom:scripting/monoscript/fileName/US0188-TemplateUsesOnlyReleasedPackages.cs: abeaaacf95c35e02f1c1b505457e5811 -> 
+  custom:scripting/monoscript/fileName/US0061-AssetFolderNaming.cs: c58a1fab83a8aebe8bdf454900d39c38 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ActivityLogger.cs: 27ebd9dc9d4ede2e2498d4b9089945f8 -> 
+  custom:scripting/monoscript/fileName/US0110-AssetsDoNotUseJpg.cs: 1739fe61d3894defaf3474c21ceebad2 -> 
+  custom:scripting/monoscript/fileName/AssemblyInfo.cs: a0e97e0ccc9c44bda4f9b665011adc0c -> 
+  custom:scripting/monoscript/fileName/IHttpWebResponse.cs: d39e4b44ba34d9f9ab645c73583f76a3 -> 
+  custom:scripting/monoscript/fileName/ProcessOutputStreamReader.cs: 2bba14abbd773be7027b57a9e26d1721 -> 
+  custom:scripting/monoscript/fileName/MetaFilesValidation.cs: 89bf2da5397037a54c8af3dc1590a03a -> 
+  custom:scripting/monoscript/fileName/JsonUnmarshaller.cs: 3700aa7c7203e643635ca086385ac255 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/AssemblyDefinition.cs: 6beab201adac02c3473c58759444b498 -> 
+  custom:scripting/monoscript/fileName/IValidationTestResult.cs: 05798c69b733f79e4feadab4a307f35c -> 
+  custom:scripting/monoscript/fileName/US0113-FilePathLength.cs: 49e5558e79e4964533c9d6721017b007 -> 
+  custom:scripting/monoscript/fileName/ValidationSuiteExtension.cs: 7a5b0586465ccb0ce30ab732351c2e94 -> 
+  custom:scripting/monoscript/fileName/US0006-PackageNamingConvention.cs: 02d89d308ca593ad8ba9e28513626826 -> 
+  custom:scripting/monoscript/fileName/US0041-APIDocumentationIncluded.cs: 761dbcc83788853da50fa695a786d8f6 -> 
+  custom:scripting/monoscript/fileName/HttpWebResponseWrap.cs: ff7bc77748113037cc8e00fdd4f6d03d -> 
+  custom:scripting/monoscript/fileName/BaseAssemblyValidation.cs: 1817a8dba3477dd0bb4475367c2ced9d -> 
+  custom:scripting/monoscript/fileName/UIUtils.cs: 50e85056e048120cdf2493a52aa8ecdb -> 
+  custom:scripting/precompiled-assembly-types:Mono.Cecil.Rocks: d98f994105b32bbc8f98a0bab029ed34 -> 
+  custom:scripting/monoscript/fileName/ValidationAssemblyInformation.cs: d4ef6d0f0416e61052572bc81799c425 -> 
+  custom:scripting/monoscript/fileName/US0115-UnapprovedFileTypes.cs: 786e3c94a2a0cd696ff380dc7ac9e359 -> 
+  custom:scripting/monoscript/fileName/US0040-UserManualDocumentationIncluded.cs: 3f551b76c6b744d56b8a159f97d5b6fb -> 
+  custom:scripting/monoscript/fileName/SimpleJsonReader.cs: fbec468ab0e400058cfbf7055b48b63e -> 
+  custom:scripting/monoscript/fileName/US0084-DependencyVersionsCorrectlyIndicated.cs: e10af399e45b1351424dccf73064a38d -> 
+  custom:scripting/monoscript/fileName/ApiValidation.cs: c02b011e76044b5995f43cd082461b7e -> 
+  custom:scripting/monoscript/fileName/RestrictedFilesValidation.cs: 1cd56bd7099017c7cf50d8f120d140f9 -> 
+  custom:scripting/monoscript/fileName/US0039-ChangelogExistsAndContainValidEntriesCheck.cs: ff1ec4cb922eba6d641e075c43197cfc -> 
+  custom:scripting/precompiled-assembly-types:Unity.PackageValidationSuite.Editor.Extension: df287b06f14ed5c65660547caa4af0b3 -> 
+  custom:scripting/monoscript/fileName/ValidationSuiteExtensionUI.cs: e738d896284c6ce1ffece16e3d6d174d -> 
+  custom:scripting/monoscript/fileName/VettingReport.cs: 838d187582574e6f82135bf15af24c71 -> 
+  custom:scripting/monoscript/fileName/US0114-PrimedTemplateLibrary.cs: 410bbe8082c07a92431f24ec5889a486 -> 
+  custom:scripting/monoscript/fileName/PathLengthValidation.cs: 2b543be4b5fad5b0f6fecedc66a4543b -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/precompiled-assembly-types:log4net: 73c4a2bfe7029f0029be6c69de932687 -> 019978558686b3dbe60f5be7e8a69682
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CIUtils.cs: 8e02b465e9013925973bb9f6ac583615 -> 
+  custom:scripting/monoscript/fileName/SignatureValidation.cs: c101a47140c1f399f8cb5e4e502b9ce6 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/US0005-SemVerCheck.cs: e9a91d72f43a55d17b6d0c4b9af44445 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ValidationTypeDropdown.cs: 18229a0c941d15cbc862f58af9d816e4 -> 
+  custom:scripting/monoscript/fileName/TemplateProjectValidation.cs: eb2b6864cc7c332aa6aeba6f74290612 -> 
+  custom:scripting/monoscript/fileName/ValidationSuiteReport.cs: bd155e8c1d4f77232de330e5ba734d0b -> 
+  custom:scripting/monoscript/fileName/FolderStructureValidation.cs: 020109c002497c312bfa3416101bed4f -> 
+  custom:scripting/monoscript/fileName/LocalDocumentationValidation.cs: 33dbae8855727d0add620d3935b5ff0d -> 
+  custom:scripting/precompiled-assembly-types:Mono.Cecil.Mdb: dfddc2d5e9570038a3ea8da067257c97 -> 
+  custom:scripting/monoscript/fileName/ValidationSuite.cs: 1992119875d6ef69a29ad2b54ecbfa08 -> 
+  custom:scripting/monoscript/fileName/SemVersion.cs: 57f095013e6375e7022482acefb8f89a -> 
+  custom:scripting/monoscript/fileName/PrimedLibraryValidation.cs: 69af6b894949e3255e3ce26b1dfa61b0 -> 
+  custom:scripting/monoscript/fileName/ValidationExceptionManager.cs: 804703adb5e0a69376ac89595e0a4615 -> 
+  custom:scripting/monoscript/fileName/HttpWebRequestWrap.cs: 3f225be1b5e91e8aeb30f70ec427b1c6 -> 
+  custom:scripting/precompiled-assembly-types:Unity.APIComparison.Framework: 56bd75ca4c47d61627b8f21750deb84e -> 
+  custom:scripting/monoscript/fileName/ManifestValidation.cs: 380ce257b4afe674b1bc8a3708f0e191 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/HttpWebRequestFactory.cs: c288ddfccd8abf4f91f5ac28097cd45c -> 
+  custom:scripting/monoscript/fileName/XmlDocValidation.cs: d1f6687644483e9ae860f35a79232b69 -> 
+  custom:scripting/monoscript/fileName/AssetsValidation.cs: cabe9b7c4dd2314eb3edd17ebd16ec4f -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/US0038-AssemblyDefinitionCorrectlyNamed.cs: e96ff4b047b1f4521218a55c9176eec7 -> 
+  custom:scripting/monoscript/fileName/RequiredFilesValidation.cs: ce754c9494f2c9ffb0359a2463026e48 -> 
+  custom:scripting/monoscript/fileName/PackageUnityVersionValidation.cs: 215242e2f3af711e9b38b68a1353af5c -> 
+  custom:scripting/monoscript/fileName/US0063-FolderStructureConventions.cs: 24315a8042c41465a02496bc4e30a068 -> 
+  custom:scripting/monoscript/fileName/US0032-LicenseIncluded.cs: 8d8e9d3da4f0f456b38a04553acc49a4 -> 
+  custom:scripting/monoscript/fileName/US0065-ThirdyPartyNotice.cs: 22ad6cc1c17daaa8996d50a67297a596 -> 
+  custom:scripting/monoscript/fileName/SamplesUtilities.cs: d7c0caa5f8a0ecbaefa1df9062d33a9f -> 
+  custom:scripting/monoscript/fileName/UnityVersion.cs: 3900f406465196959e4434744d0e5502 -> 
+  custom:scripting/monoscript/fileName/PackageType.cs: af8876553dfdca88ae1f61c366d0f1dc -> 
+  custom:scripting/monoscript/fileName/IHttpWebRequest.cs: c410653bb594d9a4dd7d3c11166b9fc9 -> 
+  custom:scripting/monoscript/fileName/ValidationException.cs: df5990550be258f7680ac345e1ac676d -> 
+  custom:scripting/monoscript/fileName/IValidationTest.cs: fda8304a04e740d0c1983723d9a59e81 -> 
+  custom:scripting/monoscript/fileName/VersionTag.cs: 02d54ee475547bbc4a1f8a4e17f21652 -> 
+  custom:scripting/monoscript/fileName/US0057-AssetNaming.cs: 3b8da0ffd17da57172f45f66ef05d7b5 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/US0112-PackageContainsMetafile.cs: ee1fd778dde513a0d5ad88f7db6dcf9c -> 
+  custom:scripting/monoscript/fileName/IHttpWebRequestFactory.cs: 19eac2e1410f68aca3b28f41f83bfbdc -> 
+  custom:scripting/monoscript/fileName/SamplesValidation.cs: 33b9ab4d4611cd2ef8c406cb34c4aed7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/LifecycleValidation.cs: 7e6c14c4622814bbc64fe39fab49975e -> 
+  custom:scripting/monoscript/fileName/TextReport.cs: 6d8701d2ec00c36a9c5adcb0de50bfad -> 
+  custom:scripting/monoscript/fileName/NodeLauncher.cs: 67c02145a3dc92b1c3b8a6bcbd0bd7e1 -> 
+  custom:scripting/monoscript/fileName/PackageCIUtils.cs: 0ef8cd01b6c4ab7f68f97b0082b835b4 -> 
+  custom:scripting/monoscript/fileName/US0116-Samples.cs: a70da4bbde74f79bca574276f86f10b1 -> 
+  custom:scripting/monoscript/fileName/ChangeLogValidation.cs: 5946b84ea67a5be5f47b1be828499041 -> 
+  custom:scripting/monoscript/fileName/LicenseValidation.cs: 3ca55cea0f0a61a494039486fedbf5de -> 
+  custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
+  custom:scripting/monoscript/fileName/DiffEvaluation.cs: ebdc3390ffb877bb1e2e29b334a17412 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/US0111-PackageDoesNotContainResourcesFolder.cs: 71a168e152f87d227865d0890adc7f99 -> 
+  custom:scripting/monoscript/fileName/ErrorDocumentation.cs: 3233d93f0df2c6afbc4254a873babde5 -> 
+  custom:scripting/monoscript/fileName/Utilities.cs: 362b4ae2a7aa54a71885fc7376acac91 -> 
+  custom:scripting/precompiled-assembly-types:Mono.Cecil: ccd3eb1a29ea76869e665d6c237ddc80 -> 
+  custom:scripting/monoscript/fileName/NetCoreRunProgram.cs: f923d492463f4d71acbc5a2ce6406410 -> 
+  custom:scripting/monoscript/fileName/US0007-ValidPackageManifest.cs: 295dd9a59a25788d402a2016c67ccdad -> 
+  custom:scripting/monoscript/fileName/ProjectInfo.cs: 6bccb037185321f7a98fa2c0e1c48f12 -> 
+  custom:scripting/precompiled-assembly-types:Unity.PackageValidationSuite.Editor: d47468a20329ab91e5f58c8e89551485 -> 
+  custom:scripting/monoscript/fileName/AssemblyDefinitionReference.cs: 2f68d88bfe3b2516b2dd3c85c92af3f8 -> 
+  custom:scripting/monoscript/fileName/ValidationTestReport.cs: 31db714c89accda9b1b961a9f2fbe988 -> 
+  custom:scripting/monoscript/fileName/ManifestData.cs: 3a174b98e66aafc5f4f77165d9b07425 -> 
+  custom:scripting/monoscript/fileName/PackageBinaryZipping.cs: 4e5bf65c267c442fa78739ef9977d7a9 -> 
+  custom:scripting/monoscript/fileName/IStandard.cs: d906092476877cc16595618eb3f2dde8 -> 
+  custom:scripting/monoscript/fileName/ValidationSuiteReportData.cs: 3af81f4d2abe584d11fcb82055bec721 -> 
+  custom:scripting/monoscript/fileName/UpdateConfigurationValidation.cs: 7015057530d33d9ac97b504ffa565b1a -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/ReleaseValidation.cs: 21847963156fa697523b0a89620ce492 -> 
+  custom:scripting/monoscript/fileName/SemVersionExtension.cs: a5d696d5120291a454af0cba876a6f31 -> 
+  custom:scripting/monoscript/fileName/PackageLifecyclePhase.cs: 3d036d25611745d578b59e39b625d1b3 -> 
+  custom:scripting/monoscript/fileName/BaseValidation.cs: 81fe221c5e870827498278e86fcbdc27 -> 
+  custom:scripting/monoscript/fileName/VettingContext.cs: 91d88673cbd856037850453d873a93e6 -> 
+  custom:scripting/precompiled-assembly-types:Mono.Cecil.Pdb: bc7bb29408e7956d980310bdeff8d6a2 -> 
+  custom:scripting/monoscript/fileName/RelatedPackages.cs: f7260de9473f4e976b17a322498940d4 -> 
+  custom:scripting/monoscript/fileName/AssemblyDefinitionValidation.cs: 3f6d4b2c3153a05f2450ce1c54d3e3ee -> 
+  custom:scripting/monoscript/fileName/US0117-PackageIncludesApiUpdaterScripts.cs: f06f898f4a62c3aacba5ddf7c253333e -> 
+  custom:scripting/monoscript/fileName/UnityVersionValidation.cs: 0344d253ea5d2c15e211c6a942647687 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1373.695451 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Main Camera.prefab
+  artifactKey: Guid(797ea7808af356b4db6f37e89b36aa48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Main Camera.prefab using Guid(797ea7808af356b4db6f37e89b36aa48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'da7f80f5d9ca69e268f76403390646f0') in 0.097431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 98
+========================================================================
+Received Import Request.
+  Time since last request: 2.449624 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_Grass2.prefab
+  artifactKey: Guid(9768597e3ac20aa418b50552ba80a4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_Grass2.prefab using Guid(9768597e3ac20aa418b50552ba80a4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4538e56b672f55f548bfd84c65e27af5') in 0.422022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_UpsidedownGrass2.prefab
+  artifactKey: Guid(ab59b93659d32f04b985c7df2ad7e73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_UpsidedownGrass2.prefab using Guid(ab59b93659d32f04b985c7df2ad7e73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8ef6c90e8530a348418aac023b7c7f13') in 0.025788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_MUpsidedown3.prefab
+  artifactKey: Guid(b6c3ed6fd9927504f9e1293eaa4715ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_MUpsidedown3.prefab using Guid(b6c3ed6fd9927504f9e1293eaa4715ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '60451e3975443c72c0a2cca3732a04da') in 0.029346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_Ice1.prefab
+  artifactKey: Guid(aa2a049d80d4f444f934397de5a0dff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_Ice1.prefab using Guid(aa2a049d80d4f444f934397de5a0dff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '145611aa237f9b20294002f65cec54f8') in 0.029760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_MUpsidedownIce1.prefab
+  artifactKey: Guid(c01523096c88ba94bb4670f15fc2256a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_MUpsidedownIce1.prefab using Guid(c01523096c88ba94bb4670f15fc2256a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9b3b3194a66c4966aee322a764e2fd5a') in 0.026444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_UpsidedownGrass4.prefab
+  artifactKey: Guid(3af23dd25fdb72d46bec4b99466ff62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_UpsidedownGrass4.prefab using Guid(3af23dd25fdb72d46bec4b99466ff62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a91b256fac24b221dd14295afb650979') in 0.024068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_Mush6.prefab
+  artifactKey: Guid(912ecad402cef80449197ade3f72ccad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_Mush6.prefab using Guid(912ecad402cef80449197ade3f72ccad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c8f0533589de1db1954d11a2dd2d1f58') in 0.025258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_UpsidedownIce8.prefab
+  artifactKey: Guid(464df80b5d804b143aea332146f253d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_UpsidedownIce8.prefab using Guid(464df80b5d804b143aea332146f253d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6295dff8350b9ee56ed7d38e272eae64') in 0.022941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_UpsidedownIce4.prefab
+  artifactKey: Guid(b166a5d13834e0344a73049931838672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_UpsidedownIce4.prefab using Guid(b166a5d13834e0344a73049931838672) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd487a80966573121615093921e8fe5a6') in 0.023265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_UpsidedownGrass8.prefab
+  artifactKey: Guid(59d9e4d81f7ad0148a83fc6e259c7abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_UpsidedownGrass8.prefab using Guid(59d9e4d81f7ad0148a83fc6e259c7abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f38fb9f232ec53691f9e81718273fc3b') in 0.022136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_Ice4.prefab
+  artifactKey: Guid(8c38077276a10554e8138ead4683d9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_Ice4.prefab using Guid(8c38077276a10554e8138ead4683d9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0717bc3cfd5d78e6d4ca267f129587be') in 0.022926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_MIce3.prefab
+  artifactKey: Guid(fbb231d9210c07f47824ef5a82badb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_MIce3.prefab using Guid(fbb231d9210c07f47824ef5a82badb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5138411af624c8ac806eaa9ef063ac2d') in 0.022904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_Grass7.prefab
+  artifactKey: Guid(dbbe37ca056252245ac494170c96322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_Grass7.prefab using Guid(dbbe37ca056252245ac494170c96322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '997e460821f9d14c3bec8d4f5556125a') in 0.023213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_Ice7.prefab
+  artifactKey: Guid(53b7587a8095c8d4e81eed7c509e6609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_Ice7.prefab using Guid(53b7587a8095c8d4e81eed7c509e6609) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '08b2ae86861c4f58126324fa4a68811b') in 0.021377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_Ice8.prefab
+  artifactKey: Guid(ae0ff0896ecd71641bc6afd6fbf33b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_Ice8.prefab using Guid(ae0ff0896ecd71641bc6afd6fbf33b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '61f368f7cafaeca5a4e28fcb2d81bd99') in 0.025321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_Grass8.prefab
+  artifactKey: Guid(31d365455afb8d440af3f400ff672277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_Grass8.prefab using Guid(31d365455afb8d440af3f400ff672277) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2f7c0c532007197e4bf5a0ed48edc44e') in 0.028091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_Grass4.prefab
+  artifactKey: Guid(b25e6541b71d9eb49a43e99456486ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_Grass4.prefab using Guid(b25e6541b71d9eb49a43e99456486ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4e05e23cc1a72d8a9f17e7d1ac4e5114') in 0.023519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_Ice3.prefab
+  artifactKey: Guid(4dacfd6795dbba34aad4ab38992c9412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_Ice3.prefab using Guid(4dacfd6795dbba34aad4ab38992c9412) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1b9c57ca7f739a45e21a448a6fbf9a9f') in 0.027653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 473.179180 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Particle/PS_Snow.prefab
+  artifactKey: Guid(281c906202521c9489be4f454356605a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Particle/PS_Snow.prefab using Guid(281c906202521c9489be4f454356605a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8dff36de74e42ba8da44572f39460276') in 0.028595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 481.459969 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_BrownS.prefab
+  artifactKey: Guid(9bcf2f755d31bf440a5425f1b8491455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_BrownS.prefab using Guid(9bcf2f755d31bf440a5425f1b8491455) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd113ecc884e18b17c5a7d7d26516a754') in 0.031578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_Grave.prefab
+  artifactKey: Guid(fcbf1d5d710044e4abac8dc190daa4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_Grave.prefab using Guid(fcbf1d5d710044e4abac8dc190daa4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9c4c3444693ff5d1f9b2f70143ea44df') in 0.024728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_MPGrey.prefab
+  artifactKey: Guid(6987b0415eba62b4dbe6259ac8de566e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_MPGrey.prefab using Guid(6987b0415eba62b4dbe6259ac8de566e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b94cde228d4881b904f38e1b8247b9ad') in 0.032824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_Lever.prefab
+  artifactKey: Guid(6ec1209a1898d4145a8c2a3b3696b270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_Lever.prefab using Guid(6ec1209a1898d4145a8c2a3b3696b270) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '74526b9b422b8cdb48c19c95387bd46f') in 0.038951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_LadderTopBirch.prefab
+  artifactKey: Guid(ec915543705456b428551312de1a9477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_LadderTopBirch.prefab using Guid(ec915543705456b428551312de1a9477) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'de2ae385e4ed80c3b6ee3ab4fdebc555') in 0.024259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_ItemTV.prefab
+  artifactKey: Guid(ffa1922d16f68e447b9f0d4a5c697447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_ItemTV.prefab using Guid(ffa1922d16f68e447b9f0d4a5c697447) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '47d3eb900798a37176f2789b08275b41') in 0.025808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_MPBrown.prefab
+  artifactKey: Guid(9750aa197a9a1084ca10eb30830ffa56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_MPBrown.prefab using Guid(9750aa197a9a1084ca10eb30830ffa56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ce83d477db6a8a83f6058d3cda35a5ba') in 0.026037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_Key6.prefab
+  artifactKey: Guid(7d646096ddd834f41af761ad5a989942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_Key6.prefab using Guid(7d646096ddd834f41af761ad5a989942) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7ebecc556cd8b0ad79f30ed311a6978e') in 0.026594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_Rubi.prefab
+  artifactKey: Guid(4ae856bf7f867fa41a48a0467a953566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_Rubi.prefab using Guid(4ae856bf7f867fa41a48a0467a953566) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'deee87f0f59517c90fa6ed789069e94b') in 0.028867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_FlagTop.prefab
+  artifactKey: Guid(d2c2ef38042347648b5d818d43abfd0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_FlagTop.prefab using Guid(d2c2ef38042347648b5d818d43abfd0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd56b219aea3bcaddeb7ede0b1df785f7') in 0.027626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_YellowAfirmationB.prefab
+  artifactKey: Guid(e7d855d7f29e3c6479a2ec0d1109a08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_YellowAfirmationB.prefab using Guid(e7d855d7f29e3c6479a2ec0d1109a08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1b93321c658b7bd0844f72a4aed79557') in 0.026380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_HeartPickup.prefab
+  artifactKey: Guid(30b9db36d597cda4490c918cc6ba8836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_HeartPickup.prefab using Guid(30b9db36d597cda4490c918cc6ba8836) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5951552615379a2fb4bdbba9f25a53b8') in 0.029892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_PlateRightDirection.prefab
+  artifactKey: Guid(4573ebd680baec94a9724039361a86ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_PlateRightDirection.prefab using Guid(4573ebd680baec94a9724039361a86ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '10bcd6d2d66f58d43e209c31bd28f901') in 0.023625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_PotionBlue.prefab
+  artifactKey: Guid(115d2627eceb7ab48b3acf42b5705196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_PotionBlue.prefab using Guid(115d2627eceb7ab48b3acf42b5705196) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ccf3cc8c41630addffb479dd42861130') in 0.030601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_PlateLefttDirection.prefab
+  artifactKey: Guid(80557ca5d681ac44691e24982a6fc24e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_PlateLefttDirection.prefab using Guid(80557ca5d681ac44691e24982a6fc24e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '83e6d1e0a0fd575f58b56348e5f8168d') in 0.026456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_PotionRed.prefab
+  artifactKey: Guid(41e4d6cfb65acd04f9ce83da8e4ac1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_PotionRed.prefab using Guid(41e4d6cfb65acd04f9ce83da8e4ac1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '628c66e89c7e19c621c1d9c01000a29e') in 0.030268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_Trampoline.prefab
+  artifactKey: Guid(9821d8be464d3e344b3b9a3565bcc9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_Trampoline.prefab using Guid(9821d8be464d3e344b3b9a3565bcc9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6eac41698092d605f877fe2a297f1ae3') in 0.033738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_Fence1.prefab
+  artifactKey: Guid(dc3a4342c6dd5f54eb15e37234baf4ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_Fence1.prefab using Guid(dc3a4342c6dd5f54eb15e37234baf4ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4bdd9963153c8cc31ce17ea8c52a59c2') in 0.030225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_Door.prefab
+  artifactKey: Guid(35f486b8151a4a14994e07266655a67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_Door.prefab using Guid(35f486b8151a4a14994e07266655a67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4871033e04c2a402e8cd58788c6d0ce0') in 0.023651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 24.024481 seconds.
+  path: Assets/Forest sprite pack/Prefabs/Butterfly ellow.prefab
+  artifactKey: Guid(169a120790acf8c43a7fea5b011eb764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest sprite pack/Prefabs/Butterfly ellow.prefab using Guid(169a120790acf8c43a7fea5b011eb764) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '86b92e6d4960c76e5508f09d375388d1') in 0.162127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Forest sprite pack/Prefabs/simple platform.prefab
+  artifactKey: Guid(19a14ed99efea77438fb28f32da52e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest sprite pack/Prefabs/simple platform.prefab using Guid(19a14ed99efea77438fb28f32da52e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'afefb6b8922e8edf78d8cd0336f556cb') in 0.069893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Forest sprite pack/Prefabs/LEAFS Particle.prefab
+  artifactKey: Guid(b413c6ee192b5734085fbac9c2a4a6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest sprite pack/Prefabs/LEAFS Particle.prefab using Guid(b413c6ee192b5734085fbac9c2a4a6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '52f6607c9c4dd5edef983817c35ebbee') in 0.042757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Forest sprite pack/Prefabs/Forest ground.prefab
+  artifactKey: Guid(67290c5d6aebf07448d0e3d021dd947e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest sprite pack/Prefabs/Forest ground.prefab using Guid(67290c5d6aebf07448d0e3d021dd947e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7dfdafc4332c4e4654e2cbe5ea23487f') in 0.138964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 41.715352 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/TileMap/Sprites/S_Ground.png
+  artifactKey: Guid(2a22facb4e32f6f469ec0d8375d66687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/TileMap/Sprites/S_Ground.png using Guid(2a22facb4e32f6f469ec0d8375d66687) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8c5062e41b63988f1ca1dd2b4697f293') in 0.504495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 16.649093 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/TileMap/Tiles/Background/S_Water&Background_7.asset
+  artifactKey: Guid(be8161cd37e6a904590d2999d6ec3976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/TileMap/Tiles/Background/S_Water&Background_7.asset using Guid(be8161cd37e6a904590d2999d6ec3976) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '434d83a104de1a1cc715be7f84a121ee') in 0.030286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/TileMap/Tiles/Background/S_Water&Background_10.asset
+  artifactKey: Guid(eb8fe55c8a899464fb2aaeaff274d819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/TileMap/Tiles/Background/S_Water&Background_10.asset using Guid(eb8fe55c8a899464fb2aaeaff274d819) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '913723d4d46430d65423ec41afce35c8') in 0.025975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/TileMap/Tiles/Background/S_Water&Background_49.asset
+  artifactKey: Guid(986370ae96827ef458eef5c6f660c15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/TileMap/Tiles/Background/S_Water&Background_49.asset using Guid(986370ae96827ef458eef5c6f660c15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ab76eeb7e580d32c75ae331f30ada2ca') in 0.022550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/TileMap/Tiles/Background/S_Water&Background_38.asset
+  artifactKey: Guid(b719703797944914daf54a53e29a7f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/TileMap/Tiles/Background/S_Water&Background_38.asset using Guid(b719703797944914daf54a53e29a7f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '98b95fdbc2afafc550bd96e2ccf92821') in 0.026551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/TileMap/Tiles/Background/S_Water&Background_47.asset
+  artifactKey: Guid(0c7d09fd77d67414d883c3d39e11a890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/TileMap/Tiles/Background/S_Water&Background_47.asset using Guid(0c7d09fd77d67414d883c3d39e11a890) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8db95f47b48cfb3ffa65183a086d945c') in 0.025832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000652 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/TileMap/Tiles/Background/S_Water&Background_42.asset
+  artifactKey: Guid(2fe57b7733f5cb74ca29e01497ea6c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/TileMap/Tiles/Background/S_Water&Background_42.asset using Guid(2fe57b7733f5cb74ca29e01497ea6c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b1f436be79a30c2112ec4461b8a6f799') in 0.028792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/TileMap/Tiles/Background/S_Water&Background_11.asset
+  artifactKey: Guid(379f72799f9609041a2e43a934887c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/TileMap/Tiles/Background/S_Water&Background_11.asset using Guid(379f72799f9609041a2e43a934887c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '211010a06c6bba3b149b54ca50ab8dee') in 0.033073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/TileMap/Tiles/Background/S_Water&Background_52.asset
+  artifactKey: Guid(d97cfb45827af4f4fa73d990a202b9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/TileMap/Tiles/Background/S_Water&Background_52.asset using Guid(d97cfb45827af4f4fa73d990a202b9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0917023435ec453834c78854f5e268a9') in 0.025593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 6.064407 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/TileMap/RuleTiles/Water/Water_Red.asset
+  artifactKey: Guid(d9ec51ca138ef6f42880e4b95762f09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/TileMap/RuleTiles/Water/Water_Red.asset using Guid(d9ec51ca138ef6f42880e4b95762f09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3888a727ce9a32c6f6b7ed163f579243') in 0.004464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 5.626712 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/TileMap/RuleTiles/WaterFall/WF_Bottom_LightBlue.asset
+  artifactKey: Guid(f7526635a9fac18459986ae3d12225f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/TileMap/RuleTiles/WaterFall/WF_Bottom_LightBlue.asset using Guid(f7526635a9fac18459986ae3d12225f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f570641107dc4dc05262a01d12ebfac3') in 0.005204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/TileMap/RuleTiles/WaterFall/WF_Top_DarkBlue.asset
+  artifactKey: Guid(32e91d45bfe1ec146933452ec3367b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/TileMap/RuleTiles/WaterFall/WF_Top_DarkBlue.asset using Guid(32e91d45bfe1ec146933452ec3367b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8d26a524e0622a06c390c0a538f27df8') in 0.003388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 3.360324 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/TileMap/RuleTiles/Ground/RT_IceGrass.asset
+  artifactKey: Guid(5eb66a7fe45a94f4cb3eeb9dff6e327c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/TileMap/RuleTiles/Ground/RT_IceGrass.asset using Guid(5eb66a7fe45a94f4cb3eeb9dff6e327c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b93c663f9e22b6ed9297d429abed9dcd') in 0.090778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 64.557288 seconds.
+  path: Assets/2D Pixel Art Platformer Biome - American Forest/Sprites.png
+  artifactKey: Guid(5fe5454ec8605de43809133b020d1b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Sprites.png using Guid(5fe5454ec8605de43809133b020d1b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '14e665a34744a6f87a72175c56942fd8') in 0.428648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 91
+========================================================================
+Received Import Request.
+  Time since last request: 3.391130 seconds.
+  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileBackGround2.asset
+  artifactKey: Guid(631b74bd7b411de4bb6b98c4d7865d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileBackGround2.asset using Guid(631b74bd7b411de4bb6b98c4d7865d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '460dd271b6e6f5001236f44a661a7b4d') in 0.042167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround1.asset
+  artifactKey: Guid(34d1095c4f4be8b4f9b3e1266da97449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround1.asset using Guid(34d1095c4f4be8b4f9b3e1266da97449) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '80613d842a431045c745c59c05d66d0a') in 0.026342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround7.asset
+  artifactKey: Guid(7a893bf30e8b23047a78c094f422fec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround7.asset using Guid(7a893bf30e8b23047a78c094f422fec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4efca821e06457bb0e814f57d1522a52') in 0.028833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileBackGround4.asset
+  artifactKey: Guid(ec8de8bf2b89d0e418e101655c613c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileBackGround4.asset using Guid(ec8de8bf2b89d0e418e101655c613c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8b794a4d5ce6b9f4d730d5e468766443') in 0.027338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileBackGround11.asset
+  artifactKey: Guid(1c9ad49b888afc644b0b0ac673048e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileBackGround11.asset using Guid(1c9ad49b888afc644b0b0ac673048e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1721da9b6677f5f23c5509b20e8c91dd') in 0.029083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround10.asset
+  artifactKey: Guid(4a61f3951d5c9a949a997d1dc9bbefa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround10.asset using Guid(4a61f3951d5c9a949a997d1dc9bbefa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '972a1cc512fcbca0f2a8cd96baf37530') in 0.023359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround2.asset
+  artifactKey: Guid(895290c18cceb6c4199b1b9eb62fff7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround2.asset using Guid(895290c18cceb6c4199b1b9eb62fff7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5f50ec6e63b5660191bfa9c6878e9c08') in 0.030635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround11.asset
+  artifactKey: Guid(0157b2ac8baf50c40ae0ea942f17e23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround11.asset using Guid(0157b2ac8baf50c40ae0ea942f17e23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '25558492a094a3705c96b5eb0e9244ef') in 0.024976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround8.asset
+  artifactKey: Guid(5606929cc3879ca498521912b4988816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround8.asset using Guid(5606929cc3879ca498521912b4988816) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4721f66aec4ea680e1f3c0da3eb0f0fd') in 0.028983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround16.asset
+  artifactKey: Guid(200d924199aa0fa4c83af3599d90e86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround16.asset using Guid(200d924199aa0fa4c83af3599d90e86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e5867b8cd8ef2dd5fbc3256c9a1434ba') in 0.025399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileBackGround13.asset
+  artifactKey: Guid(c1262a9f725f2214794065ba0db8aa98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileBackGround13.asset using Guid(c1262a9f725f2214794065ba0db8aa98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2d1a874a6fee7ded409e216e4a55e857') in 0.028367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileFence2.asset
+  artifactKey: Guid(ad0f3a99a6731994a968f3111637261d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileFence2.asset using Guid(ad0f3a99a6731994a968f3111637261d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fc00f66d7829e94423afc2671c2d51d9') in 0.029156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileFence3.asset
+  artifactKey: Guid(ef77f4bb49405e1449335d295cb017a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileFence3.asset using Guid(ef77f4bb49405e1449335d295cb017a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'eccf54285fc03de725a5fe712285592a') in 0.031103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround9.asset
+  artifactKey: Guid(28aff7c9d8d86a44d9746c4c50e2bcfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround9.asset using Guid(28aff7c9d8d86a44d9746c4c50e2bcfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4e11e14c682cc62d15e6164ca88c62ce') in 0.026794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround17.asset
+  artifactKey: Guid(b28bfc1b8014ff845a7c98bd1a3aa5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround17.asset using Guid(b28bfc1b8014ff845a7c98bd1a3aa5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '775edcf887f7a14c355b80e578ef341b') in 0.014840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround12.asset
+  artifactKey: Guid(7bef89f4445a7ff4abd5cf2f89cdde95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround12.asset using Guid(7bef89f4445a7ff4abd5cf2f89cdde95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0e6507ae4d75f163e5af6455d42c02bc') in 0.027513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileBackGround3.asset
+  artifactKey: Guid(87435dbd7721f194289f4a43488b27d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileBackGround3.asset using Guid(87435dbd7721f194289f4a43488b27d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'aaaf62723958affe1c890469d25a3b33') in 0.026307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround3.asset
+  artifactKey: Guid(108e6165f7a91b44e8701711b2d1a23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround3.asset using Guid(108e6165f7a91b44e8701711b2d1a23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4bdc95e061d59485bc33a404783999ca') in 0.028720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileBackGround5.asset
+  artifactKey: Guid(8d7a2e70a557b18409e0cb67a1164e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileBackGround5.asset using Guid(8d7a2e70a557b18409e0cb67a1164e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f2450086d3e9c4f190ec2b30c0bcc01f') in 0.023868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.132636 seconds.
+  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround20.asset
+  artifactKey: Guid(53dc4e8222ef3a54b9ee4b337062fa57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround20.asset using Guid(53dc4e8222ef3a54b9ee4b337062fa57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0ee0f85a4f3146a0f0b108c79e2ddd9c') in 0.021775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround26.asset
+  artifactKey: Guid(ae7008dc54dbeef45876afb52f820d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround26.asset using Guid(ae7008dc54dbeef45876afb52f820d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '640b07165d6cdd84e209ba44d3734841') in 0.016531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround29.asset
+  artifactKey: Guid(45ec44093c11f3946aa6ce5c3f52ac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround29.asset using Guid(45ec44093c11f3946aa6ce5c3f52ac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5c0be8c7bf3da837f93577516e697bac') in 0.029634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround25.asset
+  artifactKey: Guid(81a0e01b008d96d46a9211fbb41f16b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround25.asset using Guid(81a0e01b008d96d46a9211fbb41f16b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '056ae4f52631cb0a15742304d392c984') in 0.018303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TilePlant4.asset
+  artifactKey: Guid(d33076ed0a56ef446809983460f08a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TilePlant4.asset using Guid(d33076ed0a56ef446809983460f08a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7e5868a032d0af571f73beb86a9cf69f') in 0.027101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TilePlant9.asset
+  artifactKey: Guid(61a96784b91258e43b8f2f71e99d6f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TilePlant9.asset using Guid(61a96784b91258e43b8f2f71e99d6f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ef1e6bf3ee4d7fe8d086e68513c8a83a') in 0.038258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TilePlant3.asset
+  artifactKey: Guid(c6b11abe4c9eab945abfc37afea76ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TilePlant3.asset using Guid(c6b11abe4c9eab945abfc37afea76ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e7241a48736b265e90e42f2026ebdac0') in 0.032480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TilePlant1.asset
+  artifactKey: Guid(aab6cd1f12664da44b49bc4640c84085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TilePlant1.asset using Guid(aab6cd1f12664da44b49bc4640c84085) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9b36fe3d81a1f433decf8a8d3610b911') in 0.034387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TilePlant8.asset
+  artifactKey: Guid(78b42d183cb61fe4c82135fca595705a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TilePlant8.asset using Guid(78b42d183cb61fe4c82135fca595705a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '108dc92266a5b8893baa0f1d617b30d5') in 0.027959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround24.asset
+  artifactKey: Guid(9f106452cbe347f4e8dc5b3edcf0862e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround24.asset using Guid(9f106452cbe347f4e8dc5b3edcf0862e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f43f0613c52b9fdc45e4ab43bcaee7c3') in 0.029191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround21.asset
+  artifactKey: Guid(ea6723564d86a334fad6550a30c17623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround21.asset using Guid(ea6723564d86a334fad6550a30c17623) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b32566d3e8af579619e3d2706cc3b710') in 0.020486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TilePlant2.asset
+  artifactKey: Guid(77b322af31582374a99e73a5f0b3ba2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TilePlant2.asset using Guid(77b322af31582374a99e73a5f0b3ba2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '570877d710d2a44a3261dafa23c8af53') in 0.030412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround23.asset
+  artifactKey: Guid(2a9dd0a571776234e8802b1d24f34842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround23.asset using Guid(2a9dd0a571776234e8802b1d24f34842) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f90c244a9e471207a2739ee8626e69be') in 0.025032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TilePlant11.asset
+  artifactKey: Guid(5acb89ffd6777f34faa2cb660b3b995c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TilePlant11.asset using Guid(5acb89ffd6777f34faa2cb660b3b995c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8bd8d1706272d8feb853b48ab97b7dcc') in 0.026975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
