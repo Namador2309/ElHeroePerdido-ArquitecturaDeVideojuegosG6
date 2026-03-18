@@ -7,27 +7,27 @@ namespace Gamekit2D
     public class Damageable : MonoBehaviour, IDataPersister
     {
         [Serializable]
-        public class HealthEvent : UnityEvent<Damageable>
-        { }
+        public class HealthEvent : UnityEvent<Damageable> { }
 
         [Serializable]
-        public class DamageEvent : UnityEvent<Damager, Damageable>
-        { }
+        public class DamageEvent : UnityEvent<Damager, Damageable> { }
 
         [Serializable]
-        public class HealEvent : UnityEvent<int, Damageable>
-        { }
+        public class HealEvent : UnityEvent<int, Damageable> { }
 
         public int startingHealth = 5;
         public bool invulnerableAfterDamage = true;
         public float invulnerabilityDuration = 3f;
         public bool disableOnDeath = false;
+
         [Tooltip("An offset from the obejct position used to set from where the distance to the damager is computed")]
         public Vector2 centreOffset = new Vector2(0f, 1f);
+
         public HealthEvent OnHealthSet;
         public DamageEvent OnTakeDamage;
         public DamageEvent OnDie;
         public HealEvent OnGainHealth;
+
         [HideInInspector]
         public DataSettings dataSettings;
 
@@ -46,9 +46,7 @@ namespace Gamekit2D
         {
             PersistentDataManager.RegisterPersister(this);
             m_CurrentHealth = startingHealth;
-
             OnHealthSet.Invoke(this);
-
             DisableInvulnerability();
         }
 
@@ -73,7 +71,6 @@ namespace Gamekit2D
         public void EnableInvulnerability(bool ignoreTimer = false)
         {
             m_Invulnerable = true;
-            //technically don't ignore timer, just set it to an insanly big number. Allow to avoid to add more test & special case.
             m_InulnerabilityTimer = ignoreTimer ? float.MaxValue : invulnerabilityDuration;
         }
 
@@ -92,8 +89,6 @@ namespace Gamekit2D
             if ((m_Invulnerable && !ignoreInvincible) || m_CurrentHealth <= 0)
                 return;
 
-            //we can reach that point if the damager was one that was ignoring invincible state.
-            //We still want the callback that we were hit, but not the damage to be removed from health.
             if (!m_Invulnerable)
             {
                 m_CurrentHealth -= damager.damage;
@@ -109,7 +104,9 @@ namespace Gamekit2D
                 OnDie.Invoke(damager, this);
                 m_ResetHealthOnSceneReload = true;
                 EnableInvulnerability();
-                if (disableOnDeath) gameObject.SetActive(false);
+
+                if (disableOnDeath)
+                    gameObject.SetActive(false);
             }
         }
 
@@ -121,7 +118,6 @@ namespace Gamekit2D
                 m_CurrentHealth = startingHealth;
 
             OnHealthSet.Invoke(this);
-
             OnGainHealth.Invoke(amount, this);
         }
 
@@ -134,7 +130,9 @@ namespace Gamekit2D
                 OnDie.Invoke(null, this);
                 m_ResetHealthOnSceneReload = true;
                 EnableInvulnerability();
-                if (disableOnDeath) gameObject.SetActive(false);
+
+                if (disableOnDeath)
+                    gameObject.SetActive(false);
             }
 
             OnHealthSet.Invoke(this);
@@ -162,7 +160,5 @@ namespace Gamekit2D
             m_CurrentHealth = healthData.value1 ? startingHealth : healthData.value0;
             OnHealthSet.Invoke(this);
         }
-
-
     }
 }

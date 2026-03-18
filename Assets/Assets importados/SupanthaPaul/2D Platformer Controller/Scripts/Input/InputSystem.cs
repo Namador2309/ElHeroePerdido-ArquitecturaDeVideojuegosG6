@@ -22,9 +22,35 @@ namespace SupanthaPaul
             return Input.GetKeyDown(KeyCode.Space);
         }
 
+        static float lastLeftTapTime = 0f;
+        static float lastRightTapTime = 0f;
+        static float doubleTapTime = 0.3f;
+
         public static bool Dash()
         {
-            return Input.GetKeyDown(KeyCode.X);
+            bool dash = false;
+
+            // IZQUIERDA (A o Flecha izquierda)
+            if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
+            {
+                if (Time.time - lastLeftTapTime <= doubleTapTime)
+                {
+                    dash = true;
+                }
+                lastLeftTapTime = Time.time;
+            }
+
+            // DERECHA (D o Flecha derecha)
+            if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
+            {
+                if (Time.time - lastRightTapTime <= doubleTapTime)
+                {
+                    dash = true;
+                }
+                lastRightTapTime = Time.time;
+            }
+
+            return dash;
         }
     }
 }

@@ -60,9 +60,9 @@ namespace SupanthaPaul
 		// 0 -> none, 1 -> right, -1 -> left
 		private int m_onWallSide = 0;
 		private int m_playerSide = 1;
+        [SerializeField] private float dashManaCost = 5f;
 
-
-		void Start()
+        void Start()
 		{
 			// create pools for particles
 			PoolManager.instance.CreatePool(dashEffect, 2);
@@ -196,20 +196,30 @@ namespace SupanthaPaul
 			// if not currently dashing and hasn't already dashed in air once
 			if (!isDashing && !m_hasDashedInAir && m_dashCooldown <= 0f)
 			{
-				// dash input (left shift)
-				if (InputSystem.Dash())
-				{
-					isDashing = true;
-					// dash effect
-					PoolManager.instance.ReuseObject(dashEffect, transform.position, Quaternion.identity);
-					// if player in air while dashing
-					if(!isGrounded)
-					{
-						m_hasDashedInAir = true;
-					}
-					// dash logic is in FixedUpdate
-				}
-			}
+                // dash input (left shift)
+                if (InputSystem.Dash())
+                {
+                    HealthSystem hs = GetComponent<HealthSystem>();
+
+                    if (hs != null && hs.manaPoint >= dashManaCost)
+                    {
+                        hs.UseMana(dashManaCost);
+
+                        isDashing = true;
+
+                        PoolManager.instance.ReuseObject(dashEffect, transform.position, Quaternion.identity);
+
+                        if (!isGrounded)
+                        {
+                            m_hasDashedInAir = true;
+                        }
+                    }
+                    else
+                    {
+                        Debug.Log("No hay suficiente mana");
+                    }
+                }
+            }
 			m_dashCooldown -= Time.deltaTime;
 			
 			// if has dashed in air once but now grounded
