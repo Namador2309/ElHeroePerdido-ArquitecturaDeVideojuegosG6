@@ -73,6 +73,7 @@
     <Compile Include="Assets\Assets importados\2DGamekit\Scripts\Character\MonoBehaviours\Bullet.cs" />
     <Compile Include="Assets\Assets importados\SupanthaPaul\2D Platformer Controller\Scripts\Camera\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\Menu\MenuSystem.cs" />
+    <Compile Include="Assets\teleport.cs" />
     <Compile Include="Assets\Assets importados\2DGamekit\Scripts\Character\MonoBehaviours\EnemyBehaviour.cs" />
     <Compile Include="Assets\Assets importados\2DGamekit\Utilities\DefaultPlayables\ScreenFader\ScreenFaderClip.cs" />
     <Compile Include="Assets\Assets importados\2DGamekit\Utilities\DefaultPlayables\LightControl\LightControlTrack.cs" />
@@ -235,6 +236,7 @@
     <None Include="Assets\Assets importados\2DGamekit\Utilities\Shaders\NormalMappedTileAnimated.shader" />
     <None Include="Assets\Assets importados\2DGamekit\Utilities\Shaders\Water.shader" />
     <None Include="Assets\Assets importados\2DGamekit\Utilities\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\Medieval_pixel_art_asset_FREE\pixel_snapping_README.txt" />
     <None Include="Assets\Assets importados\2DGamekit\Utilities\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\Assets importados\2DGamekit\Utilities\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\Assets importados\2DGamekit\Utilities\Shaders\Shield.shader" />
