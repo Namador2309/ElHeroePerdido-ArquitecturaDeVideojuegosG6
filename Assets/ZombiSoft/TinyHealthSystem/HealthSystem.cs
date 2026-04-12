@@ -1,220 +1,241 @@
-﻿//==============================================================
-// HealthSystem
-// HealthSystem.Instance.TakeDamage (float Damage);
-// HealthSystem.Instance.HealDamage (float Heal);
-// HealthSystem.Instance.UseMana (float Mana);
-// HealthSystem.Instance.RestoreMana (float Mana);
-// Attach to the Hero.
-//==============================================================
-
-using UnityEngine.SceneManagement;
+﻿using SupanthaPaul;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class HealthSystem : MonoBehaviour
 {
-	public static HealthSystem Instance;
+    public static HealthSystem Instance;
 
-	public Image currentHealthBar;
-	public Image currentHealthGlobe;
-	public Text healthText;
-	public float hitPoint = 100f;
-	public float maxHitPoint = 100f;
+    [Header("Health UI")]
+    public Image currentHealthBar;
+    public Image currentHealthGlobe;
+    public Text healthText;
 
-	public Image currentManaBar;
-	public Image currentManaGlobe;
-	public Text manaText;
-	public float manaPoint = 100f;
-	public float maxManaPoint = 100f;
+    [Header("Health Values")]
+    public float hitPoint = 100f;
+    public float maxHitPoint = 100f;
 
-	//==============================================================
-	// Regenerate Health & Mana
-	//==============================================================
-	public bool Regenerate = true;
-	public float regen = 0.1f;
-	private float timeleft = 0.0f;	// Left time for current interval
-	public float regenUpdateInterval = 1f;
+    [Header("Mana UI")]
+    public Image currentManaBar;
+    public Image currentManaGlobe;
+    public Text manaText;
 
-	public bool GodMode;
+    [Header("Mana Values")]
+    public float manaPoint = 100f;
+    public float maxManaPoint = 100f;
 
-	//==============================================================
-	// Awake
-	//==============================================================
-	void Awake()
-	{
-		Instance = this;
-	}
-	
-	//==============================================================
-	// Awake
-	//==============================================================
-  	void Start()
-	{
-		UpdateGraphics();
-		timeleft = regenUpdateInterval; 
-	}
+    [Header("Regen")]
+    public bool Regenerate = true;
+    public float regen = 0.1f;
+    private float timeleft = 0.0f;
+    public float regenUpdateInterval = 1f;
 
-	//==============================================================
-	// Update
-	//==============================================================
-	void Update ()
-	{
-		if (Regenerate)
-			Regen();
-	}
+    public bool GodMode;
 
-	//==============================================================
-	// Regenerate Health & Mana
-	//==============================================================
-	private void Regen()
-	{
-		timeleft -= Time.deltaTime;
+    void Awake()
+    {
+        Instance = this;
+    }
 
-		if (timeleft <= 0.0) // Interval ended - update health & mana and start new interval
-		{
-			// Debug mode
-			if (GodMode)
-			{
-				HealDamage(maxHitPoint);
-				RestoreMana(maxManaPoint);
-			}
-			else
-			{
-				HealDamage(regen);
-				RestoreMana(regen);				
-			}
+    void Start()
+    {
+        UpdateGraphics();
+        timeleft = regenUpdateInterval;
+    }
 
-			UpdateGraphics();
+    void Update()
+    {
+        if (Regenerate)
+            Regen();
+    }
 
-			timeleft = regenUpdateInterval;
-		}
-	}
+    private void Regen()
+    {
+        timeleft -= Time.deltaTime;
 
-	//==============================================================
-	// Health Logic
-	//==============================================================
-	private void UpdateHealthBar()
-	{
-		float ratio = hitPoint / maxHitPoint;
-		currentHealthBar.rectTransform.localPosition = new Vector3(currentHealthBar.rectTransform.rect.width * ratio - currentHealthBar.rectTransform.rect.width, 0, 0);
-		healthText.text = hitPoint.ToString ("0") + "/" + maxHitPoint.ToString ("0");
-	}
+        if (timeleft <= 0.0f)
+        {
+            if (GodMode)
+            {
+                HealDamage(maxHitPoint);
+                RestoreMana(maxManaPoint);
+            }
+            else
+            {
+                HealDamage(regen);
+                RestoreMana(regen);
+            }
 
-	private void UpdateHealthGlobe()
-	{
-		float ratio = hitPoint / maxHitPoint;
-		currentHealthGlobe.rectTransform.localPosition = new Vector3(0, currentHealthGlobe.rectTransform.rect.height * ratio - currentHealthGlobe.rectTransform.rect.height, 0);
-		healthText.text = hitPoint.ToString("0") + "/" + maxHitPoint.ToString("0");
-	}
+            UpdateGraphics();
+            timeleft = regenUpdateInterval;
+        }
+    }
 
-	public void TakeDamage(float Damage)
-	{
-		hitPoint -= Damage;
-		if (hitPoint < 1)
-			hitPoint = 0;
+    // =========================
+    // HEALTH
+    // =========================
 
-		UpdateGraphics();
+    private void UpdateHealthBar()
+    {
+        if (currentHealthBar == null) return;
 
-		StartCoroutine(PlayerHurts());
-	}
+        float ratio = hitPoint / maxHitPoint;
 
-	public void HealDamage(float Heal)
-	{
-		hitPoint += Heal;
-		if (hitPoint > maxHitPoint) 
-			hitPoint = maxHitPoint;
+        currentHealthBar.rectTransform.localPosition =
+            new Vector3(
+                currentHealthBar.rectTransform.rect.width * ratio - currentHealthBar.rectTransform.rect.width,
+                0,
+                0
+            );
+    }
 
-		UpdateGraphics();
-	}
-	public void SetMaxHealth(float max)
-	{
-		maxHitPoint += (int)(maxHitPoint * max / 100);
+    private void UpdateHealthGlobe()
+    {
+        if (currentHealthGlobe == null) return;
 
-		UpdateGraphics();
-	}
+        float ratio = hitPoint / maxHitPoint;
 
-	//==============================================================
-	// Mana Logic
-	//==============================================================
-	private void UpdateManaBar()
-	{
-		float ratio = manaPoint / maxManaPoint;
-		currentManaBar.rectTransform.localPosition = new Vector3(currentManaBar.rectTransform.rect.width * ratio - currentManaBar.rectTransform.rect.width, 0, 0);
-		manaText.text = manaPoint.ToString ("0") + "/" + maxManaPoint.ToString ("0");
-	}
+        currentHealthGlobe.rectTransform.localPosition =
+            new Vector3(
+                0,
+                currentHealthGlobe.rectTransform.rect.height * ratio - currentHealthGlobe.rectTransform.rect.height,
+                0
+            );
+    }
 
-	private void UpdateManaGlobe()
-	{
-		float ratio = manaPoint / maxManaPoint;
-		currentManaGlobe.rectTransform.localPosition = new Vector3(0, currentManaGlobe.rectTransform.rect.height * ratio - currentManaGlobe.rectTransform.rect.height, 0);
-		manaText.text = manaPoint.ToString("0") + "/" + maxManaPoint.ToString("0");
-	}
+    public void TakeDamage(float damage)
+    {
+        hitPoint -= damage;
 
-	public void UseMana(float Mana)
-	{
-		manaPoint -= Mana;
-		if (manaPoint < 1) // Mana is Zero!!
-			manaPoint = 0;
+        if (hitPoint < 0)
+            hitPoint = 0;
 
-		UpdateGraphics();
-	}
+        UpdateGraphics();
+        StartCoroutine(PlayerHurts());
+    }
 
-	public void RestoreMana(float Mana)
-	{
-		manaPoint += Mana;
-		if (manaPoint > maxManaPoint) 
-			manaPoint = maxManaPoint;
+    public void HealDamage(float heal)
+    {
+        hitPoint += heal;
 
-		UpdateGraphics();
-	}
-	public void SetMaxMana(float max)
-	{
-		maxManaPoint += (int)(maxManaPoint * max / 100);
-		
-		UpdateGraphics();
-	}
+        if (hitPoint > maxHitPoint)
+            hitPoint = maxHitPoint;
 
-	//==============================================================
-	// Update all Bars & Globes UI graphics
-	//==============================================================
-	private void UpdateGraphics()
-	{
-		UpdateHealthBar();
-		UpdateHealthGlobe();
-		UpdateManaBar();
-		UpdateManaGlobe();
-	}
+        UpdateGraphics();
+    }
 
-	//==============================================================
-	// Coroutine Player Hurts
-	//==============================================================
-	IEnumerator PlayerHurts()
-	{
-		// Player gets hurt. Do stuff.. play anim, sound..
-//
-	//	PopupText.Instance.Popup("Ouch!", 1f, 1f); // Demo stuff!
+    public void SetMaxHealth(float max)
+    {
+        maxHitPoint += (int)(maxHitPoint * max / 100);
+        UpdateGraphics();
+    }
 
-		if (hitPoint < 1) // Health is Zero!!
-		{
-			yield return StartCoroutine(PlayerDied()); // Hero is Dead
-		}
+    // =========================
+    // MANA
+    // =========================
 
-		else
-			yield return null;
-	}
+    private void UpdateManaBar()
+    {
+        if (currentManaBar == null) return;
 
-	//==============================================================
-	// Hero is dead
-	//==============================================================
-	IEnumerator PlayerDied()
-	{
-        // Player is dead. Do stuff.. play anim, sound..
-        //PopupText.Instance.Popup("You have died!", 1f, 1f); // Demo stuff!
+        float ratio = manaPoint / maxManaPoint;
 
-        Debug.Log("Character died");
+        currentManaBar.rectTransform.localPosition =
+            new Vector3(
+                currentManaBar.rectTransform.rect.width * ratio - currentManaBar.rectTransform.rect.width,
+                0,
+                0
+            );
+    }
 
+    private void UpdateManaGlobe()
+    {
+        if (currentManaGlobe == null) return;
 
-        yield return null;
-	}
+        float ratio = manaPoint / maxManaPoint;
+
+        currentManaGlobe.rectTransform.localPosition =
+            new Vector3(
+                0,
+                currentManaGlobe.rectTransform.rect.height * ratio - currentManaGlobe.rectTransform.rect.height,
+                0
+            );
+    }
+
+    public void UseMana(float mana)
+    {
+        manaPoint -= mana;
+
+        if (manaPoint < 0)
+            manaPoint = 0;
+
+        UpdateGraphics();
+    }
+
+    public void RestoreMana(float mana)
+    {
+        manaPoint += mana;
+
+        if (manaPoint > maxManaPoint)
+            manaPoint = maxManaPoint;
+
+        UpdateGraphics();
+    }
+
+    public void SetMaxMana(float max)
+    {
+        maxManaPoint += (int)(maxManaPoint * max / 100);
+        UpdateGraphics();
+    }
+
+    // =========================
+    // UI UPDATE
+    // =========================
+
+    private void UpdateGraphics()
+    {
+        UpdateHealthBar();
+        UpdateHealthGlobe();
+        UpdateManaBar();
+        UpdateManaGlobe();
+
+        if (healthText != null)
+            healthText.text = hitPoint.ToString("0") + "/" + maxHitPoint.ToString("0");
+
+        if (manaText != null)
+            manaText.text = manaPoint.ToString("0") + "/" + maxManaPoint.ToString("0");
+    }
+
+    // =========================
+    // DAMAGE / DEATH
+    // =========================
+
+    IEnumerator PlayerHurts()
+    {
+        if (hitPoint <= 0)
+        {
+            yield return StartCoroutine(PlayerDied());
+        }
+        else
+        {
+            yield return null;
+        }
+    }
+
+    IEnumerator PlayerDied()
+    {
+        Debug.Log("💀 MORISTE");
+
+        // desactivar control
+        var controller = GetComponent<PlayerController>();
+        if (controller != null)
+            controller.enabled = false;
+
+        yield return new WaitForSeconds(2f);
+
+        // CAMBIAR A MENÚ
+        SceneManager.LoadScene("MenuPrincipal");
+    }
 }
