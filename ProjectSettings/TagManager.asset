@@ -5,9 +5,6 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
-  - HealthSprite
-  - ManaSprite
-  - Cueva
   layers:
   - Default
   - TransparentFX
