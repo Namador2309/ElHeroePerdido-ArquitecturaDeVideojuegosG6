@@ -64,6 +64,7 @@
     <Compile Include="Assets\Assets importados\2DGamekit\Scripts\SceneManagement\PersistentDataManager.cs" />
     <Compile Include="Assets\Assets importados\2DGamekit\Utilities\DefaultPlayables\TransformTween\TransformTweenBehaviour.cs" />
     <Compile Include="Assets\Assets importados\2DGamekit\Utilities\DefaultPlayables\ScreenFader\ScreenFaderMixerBehaviour.cs" />
+    <Compile Include="Assets\PlayerAtack.cs" />
     <Compile Include="Assets\Assets importados\2DGamekit\Scripts\Effect\WaterArea.cs" />
     <Compile Include="Assets\Assets importados\2DGamekit\Utilities\DefaultPlayables\TransformTween\TransformTweenTrack.cs" />
     <Compile Include="Assets\Assets importados\2DGamekit\Scripts\Character\StateMachineBehaviours\Enemies\ChomperPatrolSMB.cs" />
@@ -141,6 +142,7 @@
     <Compile Include="Assets\Assets importados\2DGamekit\Scripts\Character\MonoBehaviours\CharacterController2D.cs" />
     <Compile Include="Assets\Assets importados\2DGamekit\Scripts\Effect\GunnerLightning.cs" />
     <Compile Include="Assets\Assets importados\2DGamekit\Scripts\Core\InteractOnTrigger.cs" />
+    <Compile Include="Assets\levelChanger.cs" />
     <Compile Include="Assets\Assets importados\2DGamekit\Scripts\Core\TimedDisabling.cs" />
     <Compile Include="Assets\Assets importados\2DGamekit\Scripts\SceneManagement\IDataPersister.cs" />
     <Compile Include="Assets\Assets importados\2DGamekit\Utilities\DefaultPlayables\TimeDilation\TimeDilationMixerBehaviour.cs" />
@@ -154,6 +156,7 @@
     <Compile Include="Assets\Assets importados\2DGamekit\Scripts\Timeline\DirectorTrigger.cs" />
     <Compile Include="Assets\Assets importados\2DGamekit\Scripts\SceneManagement\SavedData.cs" />
     <Compile Include="Assets\Assets importados\2DGamekit\Utilities\DefaultPlayables\ScreenFader\ScreenFaderBehaviour.cs" />
+    <Compile Include="Assets\BossHealt.cs" />
     <Compile Include="Assets\Assets importados\2DGamekit\Scripts\SceneManagement\TransitionPoint.cs" />
     <Compile Include="Assets\Assets importados\SupanthaPaul\2D Platformer Controller\Scripts\ObjectPooling\PoolManager.cs" />
     <Compile Include="Assets\Assets importados\2DGamekit\Scripts\Character\MonoBehaviours\Damager.cs" />
@@ -171,6 +174,7 @@
     <Compile Include="Assets\Assets importados\2DGamekit\Scripts\Core\InteractOnCollision2D.cs" />
     <Compile Include="Assets\ZombiSoft\TinyHealthSystem\HealthSystem.cs" />
     <Compile Include="Assets\Assets importados\2DGamekit\Scripts\Effect\Grenade.cs" />
+    <Compile Include="Assets\Enemy Galore 1 - Pixel Art\Script\BossAutoAtack.cs" />
     <Compile Include="Assets\Assets importados\2DGamekit\Scripts\Utility\AutoCameraSetup.cs" />
     <Compile Include="Assets\Assets importados\2DGamekit\Scripts\Localization\OriginalPhrases.cs" />
     <Compile Include="Assets\Assets importados\2DGamekit\Scripts\AI\GunnerBeam.cs" />
@@ -185,6 +189,7 @@
     <Compile Include="Assets\Assets importados\2DGamekit\Scripts\Utility\VisibleBubbleUp.cs" />
     <Compile Include="Assets\Assets importados\SupanthaPaul\2D Platformer Controller\Scripts\Player\PlayerController.cs" />
     <Compile Include="Assets\EnemyPatrol.cs" />
+    <Compile Include="Assets\DungeonMonsters2D\UserInterface\MoveLeftRight.cs" />
     <Compile Include="Assets\Assets importados\2DGamekit\Scripts\Core\InteractOnButton2D.cs" />
     <Compile Include="Assets\Assets importados\2DGamekit\Scripts\Character\StateMachineBehaviours\Player\HurtSMB.cs" />
     <Compile Include="Assets\Assets importados\2DGamekit\Scripts\Objects\EnemySpawner.cs" />
@@ -206,6 +211,7 @@
     <Compile Include="Assets\Assets importados\2DGamekit\Scripts\Character\MonoBehaviours\SpitterBT.cs" />
     <Compile Include="Assets\Assets importados\2DGamekit\Utilities\Standard Assets\Effects\ImageEffects\Scripts\BlurOptimized.cs" />
     <Compile Include="Assets\Assets importados\2DGamekit\Scripts\Audio\BackgroundMusicPlayer.cs" />
+    <Compile Include="Assets\DungeonMonsters2D\UserInterface\StartMenu.cs" />
     <Compile Include="Assets\Assets importados\2DGamekit\Scripts\Character\StateMachineBehaviours\Player\MeleeAttackSMB.cs" />
     <Compile Include="Assets\Assets importados\2DGamekit\Scripts\Audio\RandomAudioPlayer.cs" />
     <Compile Include="Assets\Assets importados\2DGamekit\Utilities\DefaultPlayables\TextSwitcher\TextSwitcherMixerBehaviour.cs" />
@@ -229,6 +235,7 @@
     <None Include="Assets\Assets importados\2DGamekit\Utilities\Shaders\FrostedGlass.shader" />
     <None Include="Assets\Assets importados\2DGamekit\Utilities\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\Assets importados\2DGamekit\Utilities\Shaders\NormalMappedSprite-Animated.shader" />
+    <None Include="Assets\Pixel2DCastleTileset\about.txt" />
     <None Include="Assets\Assets importados\2DGamekit\Utilities\Shaders\NormalMappedSprite.shader" />
     <None Include="Assets\Assets importados\2DGamekit\Utilities\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\Enemy Galore 1 - Pixel Art\Read Me.txt" />
@@ -236,6 +243,7 @@
     <None Include="Assets\Assets importados\2DGamekit\Utilities\Fonts\Rajdhani\RajdhaniFontLicense.txt" />
     <None Include="Assets\Assets importados\2DGamekit\2DGameKit_Third-PartyNotice.txt" />
     <None Include="Assets\Assets importados\2DGamekit\Utilities\Shaders\NormalMappedTile.shader" />
+    <None Include="Assets\Dark_Forest\about.txt" />
     <None Include="Assets\Assets importados\2DGamekit\Utilities\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\Assets importados\2DGamekit\Utilities\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\Assets importados\2DGamekit\Utilities\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
@@ -597,7 +605,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.11\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mono.Cecil">
