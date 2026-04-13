@@ -109,11 +109,15 @@ public class HealthSystem : MonoBehaviour
     {
         hitPoint -= damage;
 
-        if (hitPoint < 0)
+        if (hitPoint <= 0)
+        {
             hitPoint = 0;
+            FindObjectOfType<Gameover>().MostrarGameOver();
+        }
 
         UpdateGraphics();
         StartCoroutine(PlayerHurts());
+
     }
 
     public void HealDamage(float heal)
