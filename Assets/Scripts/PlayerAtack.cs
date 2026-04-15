@@ -26,8 +26,9 @@ public class PlayerAttack : MonoBehaviour
     void Attack()
     {
         Debug.Log("🗡️ Ataqué");
-        if (attackSound != null && audioSource != null)   
-            audioSource.PlayOneShot(attackSound);         
+        Debug.Log("🔊 audioSource: " + audioSource + " | clip: " + attackSound);
+        if (attackSound != null && audioSource != null)
+            audioSource.PlayOneShot(attackSound);
         if (attackPoint == null)
         {
             Debug.LogError("❌ No asignaste AttackPoint");

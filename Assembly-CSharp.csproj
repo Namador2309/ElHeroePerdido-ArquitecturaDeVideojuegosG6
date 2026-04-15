@@ -67,6 +67,7 @@
     <Compile Include="Assets\Assets importados\2DGamekit\Utilities\DefaultPlayables\ScreenFader\ScreenFaderMixerBehaviour.cs" />
     <Compile Include="Assets\Assets importados\2DGamekit\Scripts\Effect\WaterArea.cs" />
     <Compile Include="Assets\Assets importados\2DGamekit\Utilities\DefaultPlayables\TransformTween\TransformTweenTrack.cs" />
+    <Compile Include="Assets\Scripts\WinScreen.cs" />
     <Compile Include="Assets\Assets importados\2DGamekit\Scripts\Character\StateMachineBehaviours\Enemies\ChomperPatrolSMB.cs" />
     <Compile Include="Assets\Assets importados\2DGamekit\Scripts\Effect\SpriteColorChange.cs" />
     <Compile Include="Assets\Assets importados\2DGamekit\Scripts\Core\InteractOnCollision.cs" />
@@ -81,6 +82,7 @@
     <Compile Include="Assets\Assets importados\Enemy Galore 1 - Pixel Art\Script\BossAutoAtack.cs" />
     <Compile Include="Assets\Assets importados\2DGamekit\Scripts\Utility\PhysicsHelper.cs" />
     <Compile Include="Assets\Assets importados\2DGamekit\Scripts\Objects\HealthPickup.cs" />
+    <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\AotStubs.cs" />
     <Compile Include="Assets\Assets importados\2DGamekit\Utilities\DefaultPlayables\TimeDilation\TimeDilationBehaviour.cs" />
     <Compile Include="Assets\Assets importados\2DGamekit\Scripts\Core\LayerMaskExtensions.cs" />
     <Compile Include="Assets\Assets importados\2DGamekit\Scripts\Audio\AudioSurface.cs" />
